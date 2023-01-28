@@ -1,28 +1,27 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "e-commerce_back_end",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "![open issues](https://img.shields.io/github/issues-raw/box-o-water/e-commerce_back_end) ![closed issues](https://img.shields.io/github/issues-closed-raw/box-o-water/e-commerce_back_end)",
+  "main": "connection.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/box-o-water/e-commerce_back_end.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/box-o-water/e-commerce_back_end/issues"
   },
+  "homepage": "https://github.com/box-o-water/e-commerce_back_end#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0"
   }
 }
