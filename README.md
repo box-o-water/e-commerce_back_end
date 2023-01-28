@@ -7,12 +7,11 @@
 
 ## Description
 
-Back end for an e-commerce site, using Node.js, Express.js, Sequelize, and MySQL.
+Back end for an e-commerce site using Node.js, Express.js, Sequelize, and MySQL.
 
-![preview](/assets/images/e-commerce_back_end_preview1.png)
-![preview](/assets/images/e-commerce_back_end_preview2.png)
+![preview TODO]()
 
-Click [here](https://watch.screencastify.com/v/hUfAq5vvfRxIojVLdwJy) to watch a screencastify video demonstrating the application.
+Click [here TODO]() to watch a screencastify video demonstrating the application.
 
 ## Table of Contents
 
@@ -53,8 +52,6 @@ GIVEN a functional Express.js API
 - [ ] WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
       THEN I am able to successfully create, update, and delete data in my database
 
-- [x] BONUS: Ability to delete employee's, role's, department's, update employee manager's and role's, view employee's or budgets by department
-
 ## Installation
 
 - Install `nvm`
@@ -65,19 +62,7 @@ GIVEN a functional Express.js API
 
 ## Usage
 
-- $ mysql.server start
-- $ mysql -u <user> -p
-- mysql> SOURCE db/schema.sql
-- mysql> SOURCE db/seeds.sql
-- Optional: familiarize yourself with the data tables (next 3 SELECT commands):
-- mysql> SELECT \* from departments;
-- mysql> SELECT \* from roles;
-- mysql> SELECT \* from employees;
-- mysql> quit
-- Create a copy of `.env_example` file at the same level named `.env`; `.env` is in .gitignore and should NOT be pushed to any VCS (like Github)
-- Add your `USERDB` and `PASSWORD` values to the `.env` file
-- $ node index.js
-- Answer prompts
+TODO
 
 ## Contributing
 
