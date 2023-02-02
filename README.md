@@ -6,9 +6,10 @@
 
 Back end for an e-commerce site using Node.js, Express.js, Sequelize, and MySQL.
 
-![preview TODO]()
+![preview](/assets/images/e-commerce_back_end_preview1.png)
+![preview](/assets/images/e-commerce_back_end_preview2.png)
 
-Click [here TODO]() to watch a screencastify video demonstrating the application.
+Click [here](https://watch.screencastify.com/v/yq759C0xZstvCCrj6EC5) to watch a screencastify video demonstrating the application.
 
 ## Table of Contents
 
