@@ -46,10 +46,10 @@ GIVEN a functional Express.js API
 - [x] WHEN I enter the command to invoke the application
       THEN my server is started and the Sequelize models are synced to the MySQL database
 
-- [ ] WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+- [x] WHEN I open API GET routes in Insomnia Core for categories, products, or tags
       THEN the data for each of these routes is displayed in a formatted JSON
 
-- [ ] WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+- [x] WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
       THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
@@ -62,7 +62,18 @@ GIVEN a functional Express.js API
 
 ## Usage
 
-TODO
+- `$ mysql.server start`
+- `$ mysql -u <user> -p`
+- `mysql> SOURCE db/schema.sql`
+- `mysql> quit`
+- Create a copy of `.env_example` file at the same level named `.env`; `.env` is in .gitignore and should NOT be pushed to any VCS (like Github)
+- Add your `DB_USER` and `DB_PW` values to the `.env` file
+- `$ npm run seeds` to seed the database with starter data
+- `$ npm start` to start the server
+- In Insomnia Rest Client or a similar API development / testing tool, visit `https://localhost:3001`
+- Create `api/products`, `api/categories`, `api/tags` routes for each of the REST methods (GET all , POST, GET by id, PUT by id, DELETE by id)
+- Example POST/PUT payloads are located within the code; search the project for "req.body should look like"
+- Have fun viewing, creating, updating, and deleting things, if that is your jam
 
 ## Contributing
 
